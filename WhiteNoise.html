@@ -1,0 +1,108 @@
+<html>
+<head>
+	<title> 
+	</title>
+	<link rel="stylesheet" href="style.css" </head>
+
+
+
+</head>
+
+<body>
+<center>
+
+<h1> <b>  ASU Study Environments </b> </h1>
+
+<br>
+<div> This page help re-create an immersive audio experience of your favourite places on around ASU Tempe campus! </div> <br><br><br>
+
+<p> Tired of sitting at home all day? Try using these sounds as background noise to help you focus better during your studies. </p>
+
+<p>
+  Click on either image to play. Double click to pause! </p>
+  
+   <script>
+  function play1(){
+       var audio = document.getElementById("Library");
+       audio.play();
+                 }
+    function pause1(){
+       var audio = document.getElementById("Library");
+       audio.pause();
+                 }
+
+   function play2(){
+       var audio = document.getElementById("MU");
+       audio.play();
+                 }
+     function pause2(){
+       var audio = document.getElementById("MU");
+       audio.pause();
+                 }                
+
+   function play3(){
+       var audio = document.getElementById("Coffee_Shop");
+       audio.play().pause();
+                 }
+     function pause3(){
+       var audio = document.getElementById("Coffee_Shop");
+       audio.pause();
+                 }   
+
+  function play4(){
+       var audio = document.getElementById("A_Mountain");
+       audio.play();
+                 }
+     function pause4(){
+       var audio = document.getElementById("A_Mountain");
+       audio.pause();
+                 }  
+
+  function play5(){
+       var audio = document.getElementById("Stadium");
+       audio.play();
+                 }
+     function pause5(){
+       var audio = document.getElementById("Stadium");
+       audio.pause();
+                 }  
+
+  function play6(){
+       var audio = document.getElementById("Tempe_Park");
+       audio.play();
+                 }
+      function pause6(){
+       var audio = document.getElementById("Tempe_Park");
+       audio.pause();
+                 }  
+
+
+
+   </script>
+
+  <!--Library--->
+  <img src="https://live.staticflickr.com/65535/50542737516_df9d054194_w.jpg" width="240" height="160" alt="lib" value="PLAY" onclick="play1()" ondblclick="pause1()">
+  <!--MU--->
+  <img src="https://live.staticflickr.com/65535/50542903612_815972372d_w.jpg" width="240" height="160" alt="MU" value="PLAY" onclick="play2()" ondblclick="pause2()">
+  <!-- Starbucks -->
+  <img src="https://live.staticflickr.com/65535/50542790401_42012607c4_m.jpg" width="240" height="160" alt="starbucksss" value="PLAY" onclick="play3()" ondblclick="pause3()"> <br><br>
+  <!-- A mountain ---->
+  <img src="https://live.staticflickr.com/65535/50542917942_cb9ba1cf83_m.jpg" width="240" height="160" alt="WhitewashA-Fall2016" value="PLAY" onclick="play4()" ondblclick="pause4()">
+  <!-- asu stadium-->
+  <img src="https://live.staticflickr.com/65535/50542954777_776e34a686_m.jpg" width="240" height="160" alt="stadium" value="PLAY" onclick="play5()" ondblclick="pause5()">
+  <!-- Town lake ---->
+  <img src="https://live.staticflickr.com/65535/50542053693_b6e54c3e7e_m.jpg" width="240" height="160" alt="tempe town lake" value="PLAY" onclick="play6()" ondblclick="pause6()">
+
+
+  <!--AUDIO FILES -->
+<audio id="Library" src="Library.wav" ></audio>
+<audio id="MU" src="MU.wav" ></audio>
+<audio id="Coffee_Shop" src="Coffee_Shop.wav" ></audio>
+<audio id="A_Mountain" src="A_Mountain.wav" ></audio>
+<audio id="Stadium" src="Stadium.wav" ></audio>
+<audio id="Tempe_Park" src="Tempe_Park.wav" ></audio>
+<br> <br> <br> <br>
+
+<a href="index.html"> Go back to Homepage! </a>
+</body>
+</html>
